@@ -1,0 +1,18 @@
+pendapat tentang "TAGGING INTERFACES"
+
+Tag Interfaces(Tagging) merupakan sebuah istilah dalam bahasa pemograman Java. 
+Tagging merupakan sebuah Interfaces yang didalamnya tidak terdapat apa-apa atau kosong, tanpa ada method (Fungsi) atau pun atribut.
+Hal ini diterapkan untuk mengklaim keanggotaan suatu bagian dalam satu set kelas.
+Kita misalkan jika sebuah kelas Mengaplikasikan tagging interfaces , maka interface ini dapat mengklaim  atau mengambil atau memiliki apa yang ada di kelas tersebut.
+Tagging interface juga disebut kelas Perbandingan (Cloning). Tapi karena di interface tidak bisa mengimplementasikan method. TagInterface digunakan untuk semacam pemeriksaan. 
+TagInterfaces sering berguna bila digunakan dalam kombinasi dengan Refleksi.
+
+contohnya :
+@Serializable()
+    public class HelloWorld {
+    }
+
+maka akan menjadi
+  new HelloWorld().getClass().isAnnotationPresent(Serializable.class) 
+jadi tagging Interface adalah sebuah inteface kosong yang berguna untuk atau sebagai pemanggil dari kelas java lain yang sudah ada sebelumnya.
+ atau bisa juga sebagai Perbandingan atau tiruan kelas yang ada sebelumnya.
