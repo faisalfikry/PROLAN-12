@@ -1,0 +1,31 @@
+Dokumentasi program Supermarket
+NIM   : 10115262
+Nama  : Faisal Muchsin Al Fikri
+Kelas : Prolan-12
+
+1. Deskripsi program Supermarket
+	program ini di buat untuk menampilkan data data nama Barang, Karyawan yang ada di sebuah supermarket.
+program ini terdiri dari menu pilihan Yakni:
+*memasukan data biodata karyawan Yogya.
+*memasukkan data barang, makanan yang ada di supermarket.
+*memasukkan jadwal hari kerja karyawan.
+*menampilkan data Karyawan
+
+2. Cara kerja program supermarket
+
+*jika  kita perhatikan pada program menu utama ketika kita menjalankan maka terdapat sebuah menu pilihan program supermarket.
+*kemudian user dapat memilih salah satu menu pilihan dengan memasukkan digit angka di sampingnya.
+*jika user telah memilih (memasukkan )salah satu menu pilihan tersebut maka otomatis akan di arahkan ke menu yang di maksud.
+*setelah user menginputkan data maka program akan otomatis menampilkan hasil yang telah di inputkan tadi.
+*kemudian jika user telah selesai menampilkan inputan maka user juga bisa menginputkan data kembali dengan memilih menu kembali yang ada di menu pilihan.  
+
+3. Keterkaitan dengan OOP
+
+*inheritance terdapat pada kelas kerja dan yogya, dan di extend oleh kelas  Yogya dan KaryawanYogya.
+- Kelas Abstract terdapat pada kelas KaryawanYogya.java .
+- Interface terdapat pada kelas interfaceKaryawan.java, interfaceCabang.java dan interfaceBarangYogya.java yang di implementasikan pada kelas GenericBayarBarang.java,KaryawanYogya.java,dan Yogya.java.
+- Generic class terdapat pada kelas GenericBayarBarang.java.
+- Generic Method terdapat pada kelas GenericBayarBarang.java.
+- Overriding terdapat pada kelas GenericBayarBarang.java.,CabangYogya.java,Kerja.java dan Yogya.java. yaitu di atas methodnya memiliki ciri
+  @Override
+- encapsulation , getter dan setter terdapat pada kelas Yogya.java,KaryawanYogya.java dan GenericBayarBarang.java. 
